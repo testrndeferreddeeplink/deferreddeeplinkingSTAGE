@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <script>
 function getMobileOS(){
-var user agent = navigation.userAgent || navigation.vendor || window.opera;
+var userAgent = navigation.userAgent || navigation.vendor || window.opera;
 if(/windows phone/i.test(userAgent)){
 return "windows";
 }
@@ -13,6 +13,7 @@ return "android";
 }
 if(/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream){
 return "iOS";
+}
 }
 
 function DetectAndServe(){
