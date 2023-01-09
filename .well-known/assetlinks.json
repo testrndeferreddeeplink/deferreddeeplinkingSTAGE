@@ -1,0 +1,29 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ntgfreight.cssapp.qa",
+      "sha256_cert_fingerprints":
+        ["B9:B2:88:E7:9A:B6:72:FD:0E:73:8E:6F:A9:F4:A2:29:82:91:5D:7E:A6:7A:1B:B4:F5:C8:31:3C:07:3B:F8:0C"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ntgfreight.cssapp.qa",
+      "sha256_cert_fingerprints":
+        ["B7:AA:2B:60:6B:8B:14:64:B8:1C:9F:51:AE:EF:0B:5E:14:07:A1:47:16:03:EB:94:6E:6D:AE:41:BF:61:72:10"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ntgfreight.cssapp.qa",
+      "sha256_cert_fingerprints":
+        ["B4:91:6C:01:BF:A6:85:7C:E1:B4:EF:4F:3C:88:DD:3D:EE:9E:9F:81:B0:4A:95:32:02:3F:0F:B1:9F:3B:F2:FB"]
+    }
+  }
+]
